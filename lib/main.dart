@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mole_game/constants/pages/fiveMokPage.dart';
-import 'package:mole_game/constants/pages/oneToFiftyGame.dart';
+import 'package:mole_game/pages/fiveMokPage.dart';
 
 void main() {
   runApp(const MyApp());
