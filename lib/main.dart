@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mole_game/constants/pages/fiveMokPage.dart';
 import 'package:mole_game/constants/pages/oneToFiftyGame.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: const OneToFiftyGame(),
+      home: FiveMokPage(),
     );
   }
 }
